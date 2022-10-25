@@ -1,0 +1,38 @@
+body {
+    background-color: #f7f7f7;
+}
+
+.tabletimings {
+    box-shadow: 2px 2px 6px grey;
+}
+.alert{
+    display: none;
+}
+#bg_div_confirm {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    align-items: center;
+    display: none;
+}
+
+#popup_confirm {
+    width: 460px;
+    min-height: 170px;
+    background-color: white;
+    margin: 25px auto 0 auto;
+    border-radius: 2px;
+    padding: 15px;
+}
+#ctimenamaz{
+    text-transform: capitalize;
+    font-weight: 900;
+}     
+
+@media screen And (max-width:360px) {
+    #popup_confirm{
+        width: 90%;
+    }
+}

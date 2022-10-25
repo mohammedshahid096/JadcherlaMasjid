@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+    min-height: 100vh;
+    background-color: #f7f7f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    min-height: 10rem;
+    background-color: #ffff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* ---------------Login block----------------------------- */
+
+
+header {
+    text-align: center;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.alert {
+    text-align: center;
+    margin-bottom: 0;
+    padding: 5px;
+    display: none;
+    margin-top: 14px;
+}
+
+.form-group {
+    margin-top: 15px;
+    position: relative;
+
+}
+
+.form-group label {
+    margin-bottom: 2.5px;
+}
+
+.name-details {
+    display: flex;
+}
+
+.name-details #lastname {
+    margin-left: 10px;
+}
+
+.btn {
+    width: 100%;
+    background-color: black;
+    margin-top: 15px;
+    color: #fff;
+    font-size: large;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: black;
+    border: 2px solid black;
+
+}
+
+.waytologin {
+    margin-top: 10px;
+}
+
+.waytologin span {
+    color: blue;
+    text-decoration: underline;
+    text-transform: capitalize;
+    margin-top: 5px;
+    font-size: small;
+    cursor: pointer;
+}
+
+.login i {
+    position: absolute;
+    right: 10px;
+    top: 30px;
+    color: rgba(0, 0, 0, 0.297);
+    cursor: pointer;
+}
+
+#hidepassword {
+    display: none;
+}
